@@ -221,6 +221,7 @@ body {
 /* Misson styles end */
 
 
+
 /* Work styles start */
 .main, 
 .work,
@@ -505,3 +506,198 @@ body {
     text-decoration: none;
 }
 /*Footer copyright styles end */
+
+
+
+
+Responsive
+@media screen and (max-width:1300px) {
+    .header .wrap {
+        justify-content: space-around;
+    }
+}
+
+@media screen and (max-width:1150px) {
+    .wrap {
+        width: 80%;
+    }
+    .header #toggle {
+        width: 5.5rem;
+        right: 4.25rem;
+    }
+    .work .work_items .item a {
+        font-size: 1rem;
+    }
+
+}
+
+@media screen and (max-width:1150px) {
+    .wrap {
+        width: 90%;
+    }
+    .header #toggle {
+        right: 1.25rem;
+    }
+
+}
+
+@media screen and (max-width:980px) {
+    /* .header .wrap {
+        flex-direction: column;
+    }
+    .header .header_panel {
+        margin-top: 0.625rem;
+        margin-bottom: 0.625rem;
+    } */
+
+    .header .header_panel .panel_div span {
+        display: none;
+    }
+
+    .footer .footer_info {
+        width: 80%;
+    }
+    .footer .copyright {
+        width: 75%;
+    }
+}
+
+@media screen and (max-width:800px) {
+    .header .wrap {
+        justify-content: normal;
+    }
+    .header_panel {
+        margin-left: 6rem;
+    }
+    .mission .mission_text h2 {
+        font-size: 1.75rem;
+    }
+    .mission .mission_text p {
+        font-size: 0.875rem;
+    }
+    .work h2 {
+        font-size: 1.75rem;
+    }
+    .work .work_items .item a {
+        font-size: 0.875rem;
+    }
+    .experience h2 {
+        font-size: 1.75rem;
+    }
+    .experience .experience_text p {
+        font-size: 0.875rem;
+    }
+    .delibrate .wrap h2 {
+        font-size: 1.75rem;
+    }
+    .delibrate .wrap p {
+        font-size: 0.875rem;
+    }
+    .footer .footer_info {
+        font-size: 0.875rem;
+    }
+    .intro h1 {
+        font-size: 2rem;
+        color: white;
+        padding-top: 3rem;
+        padding-bottom: 2.25rem;
+    }
+    .intro_panel ul li {
+        padding: 0.625rem 0.938rem;
+    }
+    .intro_panel ul li a {
+        font-size: 0.875rem;
+    }
+    .work .work_items .item {
+        width: 46%;
+        margin: 10px;
+    }
+}
+
+@media screen and (max-width:740px){
+    .header_panel {
+        margin-left: 4rem;
+    }
+}
+
+
+
+@media screen and (max-width:690px) {
+    .header_panel {
+        margin-left: 1rem;
+    }
+
+    .intro_panel ul li {
+        padding: 0.425rem 0.738rem;
+    }
+    .intro_panel ul li a {
+        font-size: 0.700rem;
+    }
+    .footer .footer_info {
+        width: 95%;
+    }
+    .footer .copyright {
+        width: 85%;
+    }
+    .experience {
+        background: #94a5bf;
+    }
+    .experience .experience_text p {
+        width: auto;
+    }
+    .mission {
+        display: block;
+        margin-top: 3.25rem;
+    }
+    .mission .mission_text {
+        width: auto;
+    }
+    .mission .mission_pic {
+        width: auto;
+    }
+    .mission .mission_pic img {
+        max-width: 100%;
+    }
+}
+
+
+@media screen and (max-width:600px) {
+    
+    .header .wrap {
+        display: block;
+    }
+    .footer .footer_info .footer_logo {
+        display: flex;
+        align-items: center;
+    }
+    .footer .footer_info .footer_logo p {
+        margin-left: 0.625rem;
+    }
+
+    
+    .footer .footer_info {
+        flex-direction: column; 
+        align-items: center;
+        font-size: 1.2rem;
+    }
+    .footer .footer_info div {
+        margin-bottom: 1.25rem;
+    }
+}
+
+@media screen and (max-width:560px) {
+    .header .header_logo p {
+        display: none;
+    }
+    .work .work_items .item {
+        width: 95%;
+    }
+    .work .work_items .item a {
+        font-size: 1.875rem;
+    }
+}
+@media screen and (max-width:490px) {
+    .intro_panel ul {
+        display: block;
+    }
+}
